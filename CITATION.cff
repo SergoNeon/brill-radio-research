@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: "BRILL RADIO Internet Radio Benchmarks 2026"
+message: "If you use these benchmark tables or formulas, please cite the BRILL RADIO research page."
+type: dataset
+authors:
+  - family-names: "BRILL RADIO"
+year: 2026
+url: "https://radio.brill.city/internet-radio-benchmarks-2026/"
+repository-code: "https://github.com/SergoNeon/brill-radio-research"

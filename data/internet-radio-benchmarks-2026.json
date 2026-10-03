@@ -1,0 +1,338 @@
+{
+  "name": "BRILL RADIO Internet Radio Technical Benchmarks 2026",
+  "method": "deterministic bitrate calculations",
+  "assumptions": [
+    "1 kbps = 1000 bits/s",
+    "1 MB = 1000^2 bytes",
+    "1 GB = 1000^3 bytes",
+    "30-day month",
+    "20% headroom shown separately",
+    "protocol overhead and VBR variability excluded"
+  ],
+  "rows": [
+    {
+      "bitrate_kbps": 64,
+      "listeners": 1,
+      "stream_mbps": 0.064,
+      "recommended_mbps_20pct_headroom": 0.077,
+      "data_per_listener_mb_hour": 28.8,
+      "data_per_listener_gb_day": 0.691,
+      "data_per_listener_gb_30d": 20.736
+    },
+    {
+      "bitrate_kbps": 64,
+      "listeners": 10,
+      "stream_mbps": 0.64,
+      "recommended_mbps_20pct_headroom": 0.768,
+      "data_per_listener_mb_hour": 28.8,
+      "data_per_listener_gb_day": 0.691,
+      "data_per_listener_gb_30d": 20.736
+    },
+    {
+      "bitrate_kbps": 64,
+      "listeners": 50,
+      "stream_mbps": 3.2,
+      "recommended_mbps_20pct_headroom": 3.84,
+      "data_per_listener_mb_hour": 28.8,
+      "data_per_listener_gb_day": 0.691,
+      "data_per_listener_gb_30d": 20.736
+    },
+    {
+      "bitrate_kbps": 64,
+      "listeners": 100,
+      "stream_mbps": 6.4,
+      "recommended_mbps_20pct_headroom": 7.68,
+      "data_per_listener_mb_hour": 28.8,
+      "data_per_listener_gb_day": 0.691,
+      "data_per_listener_gb_30d": 20.736
+    },
+    {
+      "bitrate_kbps": 64,
+      "listeners": 500,
+      "stream_mbps": 32.0,
+      "recommended_mbps_20pct_headroom": 38.4,
+      "data_per_listener_mb_hour": 28.8,
+      "data_per_listener_gb_day": 0.691,
+      "data_per_listener_gb_30d": 20.736
+    },
+    {
+      "bitrate_kbps": 64,
+      "listeners": 1000,
+      "stream_mbps": 64.0,
+      "recommended_mbps_20pct_headroom": 76.8,
+      "data_per_listener_mb_hour": 28.8,
+      "data_per_listener_gb_day": 0.691,
+      "data_per_listener_gb_30d": 20.736
+    },
+    {
+      "bitrate_kbps": 96,
+      "listeners": 1,
+      "stream_mbps": 0.096,
+      "recommended_mbps_20pct_headroom": 0.115,
+      "data_per_listener_mb_hour": 43.2,
+      "data_per_listener_gb_day": 1.037,
+      "data_per_listener_gb_30d": 31.104
+    },
+    {
+      "bitrate_kbps": 96,
+      "listeners": 10,
+      "stream_mbps": 0.96,
+      "recommended_mbps_20pct_headroom": 1.152,
+      "data_per_listener_mb_hour": 43.2,
+      "data_per_listener_gb_day": 1.037,
+      "data_per_listener_gb_30d": 31.104
+    },
+    {
+      "bitrate_kbps": 96,
+      "listeners": 50,
+      "stream_mbps": 4.8,
+      "recommended_mbps_20pct_headroom": 5.76,
+      "data_per_listener_mb_hour": 43.2,
+      "data_per_listener_gb_day": 1.037,
+      "data_per_listener_gb_30d": 31.104
+    },
+    {
+      "bitrate_kbps": 96,
+      "listeners": 100,
+      "stream_mbps": 9.6,
+      "recommended_mbps_20pct_headroom": 11.52,
+      "data_per_listener_mb_hour": 43.2,
+      "data_per_listener_gb_day": 1.037,
+      "data_per_listener_gb_30d": 31.104
+    },
+    {
+      "bitrate_kbps": 96,
+      "listeners": 500,
+      "stream_mbps": 48.0,
+      "recommended_mbps_20pct_headroom": 57.6,
+      "data_per_listener_mb_hour": 43.2,
+      "data_per_listener_gb_day": 1.037,
+      "data_per_listener_gb_30d": 31.104
+    },
+    {
+      "bitrate_kbps": 96,
+      "listeners": 1000,
+      "stream_mbps": 96.0,
+      "recommended_mbps_20pct_headroom": 115.2,
+      "data_per_listener_mb_hour": 43.2,
+      "data_per_listener_gb_day": 1.037,
+      "data_per_listener_gb_30d": 31.104
+    },
+    {
+      "bitrate_kbps": 128,
+      "listeners": 1,
+      "stream_mbps": 0.128,
+      "recommended_mbps_20pct_headroom": 0.154,
+      "data_per_listener_mb_hour": 57.6,
+      "data_per_listener_gb_day": 1.382,
+      "data_per_listener_gb_30d": 41.472
+    },
+    {
+      "bitrate_kbps": 128,
+      "listeners": 10,
+      "stream_mbps": 1.28,
+      "recommended_mbps_20pct_headroom": 1.536,
+      "data_per_listener_mb_hour": 57.6,
+      "data_per_listener_gb_day": 1.382,
+      "data_per_listener_gb_30d": 41.472
+    },
+    {
+      "bitrate_kbps": 128,
+      "listeners": 50,
+      "stream_mbps": 6.4,
+      "recommended_mbps_20pct_headroom": 7.68,
+      "data_per_listener_mb_hour": 57.6,
+      "data_per_listener_gb_day": 1.382,
+      "data_per_listener_gb_30d": 41.472
+    },
+    {
+      "bitrate_kbps": 128,
+      "listeners": 100,
+      "stream_mbps": 12.8,
+      "recommended_mbps_20pct_headroom": 15.36,
+      "data_per_listener_mb_hour": 57.6,
+      "data_per_listener_gb_day": 1.382,
+      "data_per_listener_gb_30d": 41.472
+    },
+    {
+      "bitrate_kbps": 128,
+      "listeners": 500,
+      "stream_mbps": 64.0,
+      "recommended_mbps_20pct_headroom": 76.8,
+      "data_per_listener_mb_hour": 57.6,
+      "data_per_listener_gb_day": 1.382,
+      "data_per_listener_gb_30d": 41.472
+    },
+    {
+      "bitrate_kbps": 128,
+      "listeners": 1000,
+      "stream_mbps": 128.0,
+      "recommended_mbps_20pct_headroom": 153.6,
+      "data_per_listener_mb_hour": 57.6,
+      "data_per_listener_gb_day": 1.382,
+      "data_per_listener_gb_30d": 41.472
+    },
+    {
+      "bitrate_kbps": 192,
+      "listeners": 1,
+      "stream_mbps": 0.192,
+      "recommended_mbps_20pct_headroom": 0.23,
+      "data_per_listener_mb_hour": 86.4,
+      "data_per_listener_gb_day": 2.074,
+      "data_per_listener_gb_30d": 62.208
+    },
+    {
+      "bitrate_kbps": 192,
+      "listeners": 10,
+      "stream_mbps": 1.92,
+      "recommended_mbps_20pct_headroom": 2.304,
+      "data_per_listener_mb_hour": 86.4,
+      "data_per_listener_gb_day": 2.074,
+      "data_per_listener_gb_30d": 62.208
+    },
+    {
+      "bitrate_kbps": 192,
+      "listeners": 50,
+      "stream_mbps": 9.6,
+      "recommended_mbps_20pct_headroom": 11.52,
+      "data_per_listener_mb_hour": 86.4,
+      "data_per_listener_gb_day": 2.074,
+      "data_per_listener_gb_30d": 62.208
+    },
+    {
+      "bitrate_kbps": 192,
+      "listeners": 100,
+      "stream_mbps": 19.2,
+      "recommended_mbps_20pct_headroom": 23.04,
+      "data_per_listener_mb_hour": 86.4,
+      "data_per_listener_gb_day": 2.074,
+      "data_per_listener_gb_30d": 62.208
+    },
+    {
+      "bitrate_kbps": 192,
+      "listeners": 500,
+      "stream_mbps": 96.0,
+      "recommended_mbps_20pct_headroom": 115.2,
+      "data_per_listener_mb_hour": 86.4,
+      "data_per_listener_gb_day": 2.074,
+      "data_per_listener_gb_30d": 62.208
+    },
+    {
+      "bitrate_kbps": 192,
+      "listeners": 1000,
+      "stream_mbps": 192.0,
+      "recommended_mbps_20pct_headroom": 230.4,
+      "data_per_listener_mb_hour": 86.4,
+      "data_per_listener_gb_day": 2.074,
+      "data_per_listener_gb_30d": 62.208
+    },
+    {
+      "bitrate_kbps": 256,
+      "listeners": 1,
+      "stream_mbps": 0.256,
+      "recommended_mbps_20pct_headroom": 0.307,
+      "data_per_listener_mb_hour": 115.2,
+      "data_per_listener_gb_day": 2.765,
+      "data_per_listener_gb_30d": 82.944
+    },
+    {
+      "bitrate_kbps": 256,
+      "listeners": 10,
+      "stream_mbps": 2.56,
+      "recommended_mbps_20pct_headroom": 3.072,
+      "data_per_listener_mb_hour": 115.2,
+      "data_per_listener_gb_day": 2.765,
+      "data_per_listener_gb_30d": 82.944
+    },
+    {
+      "bitrate_kbps": 256,
+      "listeners": 50,
+      "stream_mbps": 12.8,
+      "recommended_mbps_20pct_headroom": 15.36,
+      "data_per_listener_mb_hour": 115.2,
+      "data_per_listener_gb_day": 2.765,
+      "data_per_listener_gb_30d": 82.944
+    },
+    {
+      "bitrate_kbps": 256,
+      "listeners": 100,
+      "stream_mbps": 25.6,
+      "recommended_mbps_20pct_headroom": 30.72,
+      "data_per_listener_mb_hour": 115.2,
+      "data_per_listener_gb_day": 2.765,
+      "data_per_listener_gb_30d": 82.944
+    },
+    {
+      "bitrate_kbps": 256,
+      "listeners": 500,
+      "stream_mbps": 128.0,
+      "recommended_mbps_20pct_headroom": 153.6,
+      "data_per_listener_mb_hour": 115.2,
+      "data_per_listener_gb_day": 2.765,
+      "data_per_listener_gb_30d": 82.944
+    },
+    {
+      "bitrate_kbps": 256,
+      "listeners": 1000,
+      "stream_mbps": 256.0,
+      "recommended_mbps_20pct_headroom": 307.2,
+      "data_per_listener_mb_hour": 115.2,
+      "data_per_listener_gb_day": 2.765,
+      "data_per_listener_gb_30d": 82.944
+    },
+    {
+      "bitrate_kbps": 320,
+      "listeners": 1,
+      "stream_mbps": 0.32,
+      "recommended_mbps_20pct_headroom": 0.384,
+      "data_per_listener_mb_hour": 144.0,
+      "data_per_listener_gb_day": 3.456,
+      "data_per_listener_gb_30d": 103.68
+    },
+    {
+      "bitrate_kbps": 320,
+      "listeners": 10,
+      "stream_mbps": 3.2,
+      "recommended_mbps_20pct_headroom": 3.84,
+      "data_per_listener_mb_hour": 144.0,
+      "data_per_listener_gb_day": 3.456,
+      "data_per_listener_gb_30d": 103.68
+    },
+    {
+      "bitrate_kbps": 320,
+      "listeners": 50,
+      "stream_mbps": 16.0,
+      "recommended_mbps_20pct_headroom": 19.2,
+      "data_per_listener_mb_hour": 144.0,
+      "data_per_listener_gb_day": 3.456,
+      "data_per_listener_gb_30d": 103.68
+    },
+    {
+      "bitrate_kbps": 320,
+      "listeners": 100,
+      "stream_mbps": 32.0,
+      "recommended_mbps_20pct_headroom": 38.4,
+      "data_per_listener_mb_hour": 144.0,
+      "data_per_listener_gb_day": 3.456,
+      "data_per_listener_gb_30d": 103.68
+    },
+    {
+      "bitrate_kbps": 320,
+      "listeners": 500,
+      "stream_mbps": 160.0,
+      "recommended_mbps_20pct_headroom": 192.0,
+      "data_per_listener_mb_hour": 144.0,
+      "data_per_listener_gb_day": 3.456,
+      "data_per_listener_gb_30d": 103.68
+    },
+    {
+      "bitrate_kbps": 320,
+      "listeners": 1000,
+      "stream_mbps": 320.0,
+      "recommended_mbps_20pct_headroom": 384.0,
+      "data_per_listener_mb_hour": 144.0,
+      "data_per_listener_gb_day": 3.456,
+      "data_per_listener_gb_30d": 103.68
+    }
+  ]
+}
